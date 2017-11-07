@@ -3,6 +3,7 @@ Code developed for SHH projects
 
 
 ===== plot_preseq.r & plot_preseq_after.r ======
+
 The plot_preseq.r script visualises the amount of expected, unique read fragments versus the amount of additional sequencing necessary. Its based on the preseq inference. The additional script plot_preseq_after.r can be used to add the results after additional sequencing.
 The code can be found in my git repository: https://github.com/keyfm/shh/
 
