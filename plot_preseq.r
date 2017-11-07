@@ -33,7 +33,7 @@ d2=d1[d1[,1]<=maxR,]
 ## plot
 maxY <- max(d2[,'UPPER_0.95CI'])+(0.1*max(d2[,'UPPER_0.95CI']))
 pdf(paste(outfolder,sampleID,"_preseq.pdf",sep=""))
-plot("",ylim=c(0,maxY),xlim=c(0,maxR),xlab="Sequencing effort",ylab="Expected distinct reads (w/ 95CI)",main=sampleID,cex.main=0.95)
+plot("",ylim=c(0,maxY),xlim=c(0,maxR),xlab="Mapped reads prior RMDup",ylab="Mapped Reads after RMDup (w/ 95CI)",main=sampleID,cex.main=0.95)
 mtext(paste("% Endo:",endo.per))
 polygon(c( d2[,'TOTAL_READS'] , rev(d2[,'TOTAL_READS']) ) , c( d2[,'LOWER_0.95CI'] , rev(d2[,'UPPER_0.95CI']) ) ,col="lightblue1",border="lightskyblue4",lwd=1.5)
 grid(NULL,NULL,lty=2,col="grey")
