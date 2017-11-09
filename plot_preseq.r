@@ -28,6 +28,7 @@ if( sampleID %in% rownames(endo) ){
 
 ## format data
 d1=read.table(infile, header=T,sep="\t")
+d1=d1[ complete.cases(d1), ] # if preseq ran in defect mode, it leads to NAN in some parts of the extrapolation. Exclude those.
 d2=d1[d1[,1]<=maxR,]
 
 ## plot
