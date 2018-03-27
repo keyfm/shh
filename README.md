@@ -1,6 +1,8 @@
 # shh
 Code developed for SHH projects
 
+# Usage
+Please refer to the ``` -h ``` of each script for details on usage. Try my best to always have that implemented.
 
 ===== plot_preseq.r & plot_preseq_after.r ======
 
