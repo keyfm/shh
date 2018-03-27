@@ -4,6 +4,8 @@ Code developed for SHH projects
 # Usage
 Please refer to the ``` -h ``` of each script for details on usage. Try my best to always have that implemented.
 
+# Information
+
 ===== plot_preseq.r & plot_preseq_after.r ======
 
 The plot_preseq.r script visualises the amount of expected, unique read fragments versus the amount of additional sequencing necessary. Its based on the preseq inference. The additional script plot_preseq_after.r can be used to add the results after additional sequencing.
